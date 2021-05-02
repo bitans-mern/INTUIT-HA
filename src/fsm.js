@@ -1,3 +1,4 @@
+// https://kentcdodds.com/blog/stop-using-isloading-booleans 
 const createMachine = (stateMachineDefinition) => {
     const machine = {
         currentState: stateMachineDefinition.initialState,
